@@ -8,7 +8,7 @@ Allows TextMate to recognise source codes embedded in text markups like HTML, Mu
 * Open Bundle Editor in TextMate (Control+Option+Command+B)
 * Navigate to the markup formats that you would like to use this bundle in, i.e. HTML, Markdown, Pandoc, etc.
 * Navigate to Language Grammars and edit the file
-* Insert the following line: (See screen shot)
+* Insert the following line: (See screen shot, line 12 inserted)
 
 ~~~{.source}
 
@@ -23,6 +23,7 @@ immediately after the first
 patterns = (
 	
 ~~~  
+![HTML](/Screen\ Shots/HTML.png)
 
 * Embed source code in your text documents by writing in the following syntax, **without** the two backticks (\\): (See screen shot)
 ```
@@ -33,7 +34,10 @@ def test(): pass
 
 \~~~
 ```
+![Example Code](/Screen\ Shots/Code.png)
+
 * You can easily add another source language by editing the Language Grammar file of _this_ bundle, named Source Embedding. It should be self-explanatory. (See screen shot)
+![Language Grammar](/Screen\ Shots/Language\ Grammar.png)
 
 ##Clarification
 
