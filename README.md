@@ -34,4 +34,4 @@ This bundle only makes _TextMate_ recognise source codes in your text markups, i
 Please see LICENCE. Credit is due to [Nick Dunn's excellent post](https://developmentality.wordpress.com/2011/03/23/pandoc-an-essential-tool-for-markdown-users/) which gave me the idea for this bundle. 
 
 ##Contributing
-All contributions welcomed.
+All contributions are welcomed.
