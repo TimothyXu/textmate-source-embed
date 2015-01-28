@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>kh.gvzbgul96@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Timothy Xu</string>
+	<key>description</key>
+	<string>Allows syntax highlighting and other features for source codes embedded in text documents like HTML, MultiMarkDown, Pandoc, and Markdown. Consists of only a TextMate language grammar file which allows TextMate to recognise text between  ~~~{.python} or ~~~{.c} etc. and ~~~ as source codes in respective languages, thus in turn allowing syntax highlighting. </string>
+	<key>name</key>
+	<string>Source Embedding</string>
+	<key>uuid</key>
+	<string>9911738A-F727-47B5-A08D-E64986619E3B</string>
+</dict>
+</plist>
