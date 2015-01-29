@@ -1,5 +1,5 @@
 # TextMate Source Embedding
-Allows TextMate to recognise source codes embedded in text markups like HTML, MultiMarkDown, Pandoc, Markdown and etc. so that syntax highlighting and other features can be achieved.
+Allows TextMate to recognise source code embedded in text markups like HTML, MultiMarkDown, Pandoc, Markdown and etc. so that syntax highlighting and other features can be achieved.
 
 ##Usage
 
@@ -28,7 +28,7 @@ def test(): pass
 
 ##Clarification
 
-This bundle only makes _TextMate_ recognise source codes in your text markups, it will not make such source codes be recognised and rendered correctly by your HTML/Markup parsers. HOWEVER, the brilliant utility [Pandoc](http://johnmacfarlane.net/pandoc/index.html) (and also GitHub's own markup parser) recognises the syntax used by this bundle and will render your code correctly and can output via LaTeX, HTML, EPUB, docx, and so on. This is especially convenient when combined with the [Pandoc TextMate Bundle](https://github.com/dsanson/Pandoc.tmbundle).
+This bundle only makes _TextMate_ recognise source code in your text markups, it will not make such source code be recognised and rendered correctly by your HTML/Markup parsers. HOWEVER, the brilliant utility [Pandoc](http://johnmacfarlane.net/pandoc/index.html) (and also GitHub's own markup parser) recognises the syntax used by this bundle and will render your code correctly and can output via LaTeX, HTML, EPUB, docx, and so on. This is especially convenient when combined with the [Pandoc TextMate Bundle](https://github.com/dsanson/Pandoc.tmbundle).
 
 ##Licence
 Please see LICENCE. Credit is due to [Nick Dunn's excellent post](https://developmentality.wordpress.com/2011/03/23/pandoc-an-essential-tool-for-markdown-users/) which gave me the idea for this bundle. 
