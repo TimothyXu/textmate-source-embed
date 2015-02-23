@@ -31,7 +31,15 @@ def test(): pass
 This bundle only makes _TextMate_ recognise source code in your text markups, it will not make such source code to be recognised and rendered correctly by your HTML/Markup parsers. HOWEVER, the brilliant utility [Pandoc](http://johnmacfarlane.net/pandoc/index.html) (and also GitHub's own markup parser) recognises the syntax used by this bundle and will render your code correctly and can output via LaTeX, HTML, EPUB, docx, and so on. This is especially convenient when combined with the [Pandoc TextMate Bundle](https://github.com/dsanson/Pandoc.tmbundle).
 
 ##Licence
-Please see LICENCE. Credit is due to [Nick Dunn's excellent post](https://developmentality.wordpress.com/2011/03/23/pandoc-an-essential-tool-for-markdown-users/) which gave me the idea for this bundle. 
+Credit is due to [Nick Dunn's excellent post](https://developmentality.wordpress.com/2011/03/23/pandoc-an-essential-tool-for-markdown-users/) which gave me the idea for this bundle. 
+
+Copyright (C) 2015 Timothy Xu  
+  
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
+  
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+The full GNU GPL 3 licence can be found in LICENCE.txt.
 
 ##Contributing
 All contributions are welcomed.
