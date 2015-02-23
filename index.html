@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Textmate Source Embedding by TimothyXu</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Textmate Source Embedding</h1>
+        <p>Allows syntax highlighting and other features for source code embedded in text documents like HTML, MultiMarkDown, Pandoc, Markdown, etc. in TextMate.</p>
+
+        <p class="view"><a href="https://github.com/TimothyXu/TextMate_Source_Embedding">View the Project on GitHub <small>TimothyXu/TextMate_Source_Embedding</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/TimothyXu/TextMate_Source_Embedding/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/TimothyXu/TextMate_Source_Embedding/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/TimothyXu/TextMate_Source_Embedding">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="textmate-source-embedding" class="anchor" href="#textmate-source-embedding" aria-hidden="true"><span class="octicon octicon-link"></span></a>TextMate Source Embedding</h1>
+
+<p>Allows TextMate to recognise source code embedded in text markups like HTML, MultiMarkDown, Pandoc, Markdown and etc. so that syntax highlighting and other features can be achieved.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<ul>
+<li>Download ZIP</li>
+<li>Open Source_Embedding.tmbundle to install</li>
+<li>Open Bundle Editor in TextMate (Control+Option+Command+B)</li>
+<li>Navigate to the markup formats that you would like to use this bundle in, i.e. HTML, Markdown, Pandoc, etc.</li>
+<li>Navigate to Language Grammars and edit the file</li>
+<li>Insert the following line <code>{  include = 'meta.embed'; },</code> immediately after the first <code>patterns = (</code>. (See screen shot, line 12 inserted)</li>
+</ul>
+
+<p><img src="/Screen%20Shots/HTML.png" alt="HTML"></p>
+
+<ul>
+<li>Embed source code in your text documents by writing in the following syntax, <strong>without</strong> the two backticks (\): (See screen shot)</li>
+</ul>
+
+<pre><code>\~~~{.python}
+
+#Example code
+def test(): pass
+
+\~~~
+</code></pre>
+
+<p><img src="/Screen%20Shots/Code.png" alt="Example Code"></p>
+
+<ul>
+<li>You can easily add another source language by editing the Language Grammar file of <em>this</em> bundle, named Source Embedding. It should be self-explanatory. (See screen shot)
+<img src="/Screen%20Shots/Language%20Grammar.png" alt="Language Grammar">
+</li>
+</ul>
+
+<h2>
+<a id="clarification" class="anchor" href="#clarification" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clarification</h2>
+
+<p>This bundle only makes <em>TextMate</em> recognise source code in your text markups, it will not make such source code to be recognised and rendered correctly by your HTML/Markup parsers. HOWEVER, the brilliant utility <a href="http://johnmacfarlane.net/pandoc/index.html">Pandoc</a> (and also GitHub's own markup parser) recognises the syntax used by this bundle and will render your code correctly and can output via LaTeX, HTML, EPUB, docx, and so on. This is especially convenient when combined with the <a href="https://github.com/dsanson/Pandoc.tmbundle">Pandoc TextMate Bundle</a>.</p>
+
+<h2>
+<a id="licence" class="anchor" href="#licence" aria-hidden="true"><span class="octicon octicon-link"></span></a>Licence</h2>
+
+<p>Please see LICENCE. Credit is due to <a href="https://developmentality.wordpress.com/2011/03/23/pandoc-an-essential-tool-for-markdown-users/">Nick Dunn's excellent post</a> which gave me the idea for this bundle. </p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>All contributions are welcomed.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/TimothyXu">TimothyXu</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
