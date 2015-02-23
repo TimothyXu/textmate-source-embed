@@ -10,7 +10,7 @@ Allows TextMate to recognise source code embedded in text markups like HTML, Mul
 * Navigate to Language Grammars and edit the file
 * Insert the following line `{	include = 'meta.embed'; },` immediately after the first `patterns = (`. (See screen shot, line 12 inserted)
 
-![HTML](/Screen\ Shots/HTML.png)
+![HTML](images/HTML.png)
 
 * Embed source code in your text documents by writing in the following syntax, **without** the two backticks (\\): (See screen shot)
 ```
@@ -21,10 +21,10 @@ def test(): pass
 
 \~~~
 ```
-![Example Code](/Screen\ Shots/Code.png)
+![Example Code](images/code.png)
 
 * You can easily add another source language by editing the Language Grammar file of _this_ bundle, named Source Embedding. It should be self-explanatory. (See screen shot)
-![Language Grammar](/Screen\ Shots/Language\ Grammar.png)
+![Language Grammar](/images/grammar.png)
 
 ##Clarification
 
