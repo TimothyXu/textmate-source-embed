@@ -4,7 +4,7 @@ Allows TextMate to recognise source code embedded in text markups like HTML, Mul
 ##Usage
 
 * Download ZIP
-* Open Source_Embedding.tmbundle to install
+* Open source-embed.tmbundle to install
 * Open Bundle Editor in TextMate (Control+Option+Command+B)
 * Navigate to the markup formats that you would like to use this bundle in, i.e. HTML, Markdown, Pandoc, etc.
 * Navigate to Language Grammars and edit the file
